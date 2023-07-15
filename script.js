@@ -36,16 +36,19 @@ function game(psec, csec){
         console.log("Draw");
     } 
     else if (psec == "paper" && csec == "Scissors" ){
-        console.log("W")
+        console.log("W");
     } 
     else if (psec == "scissors" && csec == "Rock" ){
-        console.log("L")
+        console.log("L");
     } 
     else if (psec == "scissors" && csec == "Paper" ){
-        console.log("W")
+        console.log("W");
     } 
-    else{
-        console.log("Draw")
+    else if (psec == "scissors" && csec == "Scissors"){
+        console.log("Draw");
+    }
+    else {
+        console.log("Please check your spelling");
     }
 
 }
